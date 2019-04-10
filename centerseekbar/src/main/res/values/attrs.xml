@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StartPointSeekBar">
+        <attr name="minValue" format="float"/>
+        <attr name="maxValue" format="float"/>
+        <attr name="backgroundDrawable" format="reference" />
+        <attr name="progressDrawable" format="reference" />
+        <attr name="thumbDrawable" format="reference"/>
+        <attr name="thumbPressedDrawable" format="reference"/>
+        <attr name="defaultBackgroundColor" format="color"/>
+        <attr name="defaultBackgroundRangeColor" format="color"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <com.atiqapps.centerseekbar.CenterPointSeekBar
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:minValue="-5"
+        app:maxValue="5"
+        android:progressDrawable="@android:color/transparent"
+        android:id="@+id/seekbar"
+        android:theme="@style/SeekBarThem"
+        app:defaultBackgroundColor="@android:color/darker_gray"
+        app:defaultBackgroundRangeColor="@color/colorPrimary"
+        app:progressDrawable="@drawable/progress_gradient"
+        app:backgroundDrawable="@drawable/progress_border"
+        />
+
+
+</RelativeLayout>
