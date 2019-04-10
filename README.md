@@ -1,6 +1,8 @@
 # CenterSeekbar
 Custom seekbar that start from the center 
 
+![](slider.gif)
+
 public class MainActivity extends AppCompatActivity {
 
     private CenterPointSeekBar seekBar;
